@@ -74,6 +74,9 @@
 #include "f_gsi.c"
 #include "f_mass_storage.h"
 #include "f_ipc.h"
+#include "f_hid.h"
+#include "f_hid_android_keyboard.c"
+#include "f_hid_android_mouse.c"
 
 USB_ETHERNET_MODULE_PARAMETERS();
 #ifdef CONFIG_MEDIA_SUPPORT
