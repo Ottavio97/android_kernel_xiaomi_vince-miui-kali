@@ -2,7 +2,7 @@
 #include <linux/usb/g_hid.h>
 
 /* HID descriptor for a mouse */
-static struct hidg_func_descriptor ghid_device_android_mouse __attribute__((unused)) = {
+static struct hidg_func_descriptor ghid_device_android_mouse = {
 	.subclass      = 1, /* Boot Interface Subclass */
 	.protocol      = 2, /* Mouse */
 	.report_length = 4,
