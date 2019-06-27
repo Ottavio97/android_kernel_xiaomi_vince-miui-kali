@@ -2,7 +2,7 @@
 #include <linux/usb/g_hid.h>
 
 /* hid descriptor for a keyboard */
-static struct hidg_func_descriptor ghid_device_android_keyboard __attribute__((unused)) = {
+static struct hidg_func_descriptor ghid_device_android_keyboard = {
 	.subclass		= 1, /* Boot Interface Subclass */
 	.protocol		= 1, /* Keyboard */
 	.report_length		= 8,
